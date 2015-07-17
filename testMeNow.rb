@@ -29,11 +29,13 @@ cust3.total_no_of_customers()
 
 ary = [1,5,"pippo", 4e20, cust1]
 
+
 hsh = {}
 
 hsh["c1"]=cust1
 hsh["c2"]=cust2
-hsh["pippo"]=ary 
+hsh["pippo"]=ary
+hsh["pippo2"]=ary  
 
 ary.each do |i|
   puts i
